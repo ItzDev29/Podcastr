@@ -70,16 +70,16 @@ const MobileNav = () => {
                     </SheetClose>
                   );
                 })}
-                <div className="flex mt-auto">
+                <div className="flex mt-96">
                   <SignedOut>
-                    <div className="flex-center flex-col w-full pb-14 max-lg:px-4 lg:pr-8">
+                    <div className="flex-center flex-col w-full pb-10 max-lg:px-4 lg:pr-8">
                       <Button
                         asChild
-                        className="text-12 w-full bg-orange-1 font-extrabold"
+                        className="text-14 w-full bg-orange-1 font-extrabold"
                       >
                         <Link href="/sign-in">Sign in</Link>
                       </Button>
-                      <h2 className="text-16 mt-2 font-bold text-white-1">
+                      <h2 className="text-12 mt-2 font-bold text-white-1">
                         Developed by Dev Mehta!
                       </h2>
                     </div>
@@ -87,7 +87,7 @@ const MobileNav = () => {
                   <SignedIn>
                     <div className="flex-center flex-col w-full pb-10 max-lg:px-4 lg:pr-8">
                       <Button
-                        className="text-12 w-full bg-orange-1 font-extrabold"
+                        className="text-14 w-full bg-orange-1 font-extrabold"
                         onClick={() => signOut(() => router.push("/"))}
                       >
                         Log Out
