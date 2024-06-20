@@ -70,7 +70,7 @@ const MobileNav = () => {
                     </SheetClose>
                   );
                 })}
-                <div className="flex mt-96">
+                <div className="flex mt-80">
                   <SignedOut>
                     <div className="flex-center flex-col w-full pb-10 max-lg:px-4 lg:pr-8">
                       <Button
