@@ -42,7 +42,7 @@ const LeftSidebar = () => {
           <Button asChild className="text-16 w-full bg-orange-1 font-extrabold">
             <Link href="/sign-in">Sign in</Link>
           </Button>
-          <h2 className="text-16 mt-2 font-bold text-white-1">Developed by Dev Mehta!</h2>
+          <h2 className="text-12 mt-2 font-bold text-white-1">Developed by Dev Mehta!</h2>
         </div>
       </SignedOut>
       <SignedIn>
